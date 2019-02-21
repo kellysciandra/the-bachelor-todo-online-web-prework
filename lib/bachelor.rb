@@ -43,8 +43,8 @@ def get_occupation(data, hometown)
         if v == hometown
           return hash["occupation"]
         end
-      end
     end
+  end
 end
 
 def get_average_age_for_season(data, season)
